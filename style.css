@@ -2,34 +2,88 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 *{
     margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #89CDA5;
+}
+
+p{
+    padding: 10px;
+    text-align: justify;
+}
+
+h1{
+    text-align: center;
+    color: #1A5A37;
+}
+
+h2{
+    background-image: linear-gradient(to right, #8ACDA6, #98D4B1, #ABDCBF , #C9E8D5, #DFF1E6, #F4FAF6 );
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: #1A5A37;
+    font-weight: bolder;
+    padding-left: 3px;
+}
+a:hover{
+    color: white;
+    background-color: #1A5A37;
+    transition-duration: 1s
 }
 header{
     background-image: linear-gradient( rgb(91, 188, 124), #4BA56B, #398958, #1A5A37, #1A5A37);
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     padding: 10px;
     height: 110px;
 }
+
 header > p{
-padding: 16px;
+    padding: 16px;
+    text-align: center;
 } 
+
+.heade{
+    font-family: 'Bebas Neue', sans-serif;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+}
 
 nav{
     background-image: linear-gradient( #1A5A37, #1A5A37);
     padding: 10px;
+    text-shadow: 1px 1px 1px black;
 }
+
+nav > a:hover{
+    background-color: #5CBE7D;
+    border-radius: 5px;
+    transition-duration: 1s;
+}
+
 nav > a {
     text-decoration: none;
     color: white;
-    font-weight: 900;
+    font-weight: bolder;
     padding: 10px;
 }
 
-h1{
-    font-family: 'Bebas Neue', sans-serif;
+main{
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;   
 }
-a{
-    text-decoration: none;
-    color: white;
+
+article{
+    background-color: white;
+    box-shadow: 0px 0px 6px black;
+    padding: 10px;
+    border-radius: 0px 0px 5px 5px;
+
 }
