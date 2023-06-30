@@ -103,7 +103,12 @@ article{
 
 .img{
     display: flex;
-    justify-content: center;
+    justify-items: center;
+  
+}
+
+.menor{
+    margin: none;
 }
 
 source{
@@ -143,3 +148,4 @@ footer > a:hover{
     background-color: white;
     transition-duration: 0.5s
 }
+
