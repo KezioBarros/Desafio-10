@@ -92,21 +92,32 @@ main{
     min-width: 300px;
     max-width: 840px;
     margin: auto;   
-}
-
-article{
     background-color: white;
-    box-shadow: 0px 0px 3px black;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.500);
     padding: 20px;
     border-radius: 0px 0px 5px 5px;
-
 }
+
 
 .img{
     width: 100%;
   
 }
 
+.imgpq{
+    width: 50%;
+    display: block;
+    margin: auto;
+}
+
+#video{
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+aside{
+    padding: 50px;
+}
 .menor{
     margin: none;
 }
