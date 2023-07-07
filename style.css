@@ -117,14 +117,22 @@ main{
     margin: auto;
 }
 
-#video{
-    width: 100%;
-    display: block;
-    margin: auto;
-}
 aside{
-    padding: 50px;
+    padding: 20px;
+    padding-bottom: 58%;
+    background-color: #1A5A37;
+    margin: 0px -20px 30px -20px;
+    position: relative;
 }
+
+#video{
+   position: absolute;
+   top: 5%;
+   left: 5%;
+   width: 90%;
+   height: 90%;
+}
+
 .menor{
     margin: none;
 }
