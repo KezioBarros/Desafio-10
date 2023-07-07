@@ -16,6 +16,7 @@ p{
     text-align: justify;
     text-indent: 2em;
     line-height: 2em;
+    font-size: 1em;
 }
 strong{
     color: #1A5A37;
@@ -30,15 +31,16 @@ strong{
 .idroid{
     font-family: 'idroid', Arial, Helvetica, sans-serif;
     color: #1A5A37;
-    font-size: 2em
+    
 }
 
 h1{
     text-align: center;
+    font-size: 2em
 }
 
 h2{
-    background-image: linear-gradient(to right, #8ACDA6, #98D4B1, #ABDCBF , #C9E8D5, #DFF1E6, #F4FAF6 );
+    background-image: linear-gradient(to right, #8ACDA6, #98D4B1, #ABDCBF , #C9E8D5, #DFF1E6, white );
     border-radius: 10px;
     padding-left: 10px;
 }
@@ -110,7 +112,7 @@ main{
 }
 
 .imgpq{
-    width: 50%;
+    max-width: 350px;
     display: block;
     margin: auto;
 }
